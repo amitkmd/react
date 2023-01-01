@@ -1,0 +1,19 @@
+.expense-form-wrapper {
+    border-radius: 5px;
+    background: #bb7cdd;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+button.add-expense-button {
+    background: #03031b;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}

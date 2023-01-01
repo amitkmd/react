@@ -1,0 +1,41 @@
+.new-expense-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-expense-control {
+    width: 50%;
+    margin: 0 0 15px;
+}
+.new-expense-control label {
+    display: inline-block;
+    margin: 0 0 5px;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+input[type="text"], 
+input[type="number"], 
+input[type="date"] {
+    height: 24px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    color: #000;
+    font-size: 14px;
+    outline:none;
+    padding:0 10px;
+}
+.new-expense-action button {
+    background: #03031b;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor:pointer;
+    display:inline-block;
+}

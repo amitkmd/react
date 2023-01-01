@@ -1,0 +1,12 @@
+.date {
+    background: #0037ff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.year {
+    font-size: 13px;
+    font-weight: bold;
+}
